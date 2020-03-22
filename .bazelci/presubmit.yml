@@ -1,4 +1,7 @@
 ---
+buildifier:
+  version: latest
+  warnings: "all"
 platforms:
   ubuntu1604:
     bazel: 1.2.0 # test minimum supported version of bazel on ubuntu1604 only
